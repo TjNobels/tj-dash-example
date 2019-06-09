@@ -40,7 +40,6 @@ pypiwin32==223
 pysd==0.9.0
 python-dateutil==2.7.5
 pytz==2018.7
-pywin32==224
 regex==2018.11.2
 requests==2.20.0
 retrying==1.3.3
