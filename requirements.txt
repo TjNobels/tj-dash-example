@@ -34,7 +34,6 @@ plotly==3.3.0
 pycparser==2.19
 pyDOE==0.3.8
 PyMySQL==0.9.2
-pyodbc==4.0.24
 pyorbital==1.5.0
 pysd==0.9.0
 python-dateutil==2.7.5
