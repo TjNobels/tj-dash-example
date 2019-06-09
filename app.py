@@ -11,11 +11,11 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 
 app.layout = html.Div([
-    html.H2('Hello World'),
+    html.H2('New Team RED board!'),
     dcc.Dropdown(
         id='dropdown',
-        options=[{'label': i, 'value': i} for i in ['LA', 'NYC', 'MTL']],
-        value='LA'
+        options=[{'label': i, 'value': i} for i in ['Ruben', 'Elise', 'Pietro']],
+        value='Ruben'
     ),
     html.Div(id='display-value')
 ])
